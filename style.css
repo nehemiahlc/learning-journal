@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+nav li {
+    padding-right: .25em;
+}
+
+.align-right {
+    margin-left: auto;
+}
+header {
+    margin: 0 .5em;
+}
+
+header img {
+    width: 1.5em;
+}
+.header-section {
+    background-image: url('images/blog-image-hero.png');
+    background-size: cover;
+}
+
+.header-home-about {
+    text-transform: uppercase;
+}
+.header-home-about li {
+    padding-right: 1em;
+}
+a img{
+    width: 18.75em;
+}
+
+.header-section {
+    padding: 6em 1em 1em 1em;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.header-section h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.header-section p {
+    margin-top: .75em;
+    line-height: 1.5;
+}
+
+date {
+    display: block;
+    text-transform: uppercase;
+}
+
+.padding {
+    padding: 0 1em;
+}
+.blog-section {
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog img {
+    width: 100%;
+}
+
+#img-headshot {
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+}
+
+#img-article {
+    width: 100%;
+    height: 15.625em;
+}
+
+.blog date {
+    margin-top: 1em;
+}
+.blog h1 {
+    margin: 0;
+}
+
+.blog p {
+    margin-bottom: 1em;
+}
+
+
+.blog-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    line-height: 1;
+}
+.blog-footer h2 {
+    text-align: center;
+}
+
+
+.view-more {
+    text-decoration: underline;
+    margin: auto;
+}
+.recent-posts {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    color: #ECECEC;
+    background-color: #202020;
+    padding: 3em;
+}
+
+footer p {
+    margin: 0;
+}
+
+#img-article {
+    display: block;
+    width: 90%;
+    height: 15em;
+    margin: 2em auto
+    
+}
+
+.view-more-link{
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.hide {
+    display: none;
+}
+
+@media (min-width: 750px) {
+   
+
+    .blog-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+        margin: 2em;
+    }
+    .header-section  {
+        font-size: 1.5em;
+        display: flex;
+        flex-direction: column;
+        height: 20em;
+        justify-content: end;
+        padding: 1em 2em;
+       }
+   .header-section p {
+    width: 50%;
+    margin-top: .5em;
+    padding-bottom: 1em;
+   }
+
+   .blog-content,
+.blog-header {
+    margin: 0 5em;
+}
+
+#img-article {
+    display: block;
+    width: 90%;
+    height: 25em;
+    margin: 2em auto;
+    
+}
+
+}
